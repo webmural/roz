@@ -1,0 +1,44 @@
+:root {
+  font-family: sans-serif;
+  font-size: max(5ex, 5vmax);
+}
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+article {
+  margin: auto;
+}
+
+i {
+  font: unset;
+  font-size: 1.618em;
+}
+
+b {
+  font-size: 2.618em;
+}
+
+@media (min-width: 50em) {
+  .brisa {
+    letter-spacing: 0.618em;
+  }
+}
+
+.petal {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  font-size: 2em;
+  font-weight: bold;
+  justify-content: center;
+  margin: auto;
+  min-height: 100vh;
+}
